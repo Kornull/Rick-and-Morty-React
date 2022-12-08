@@ -1,0 +1,49 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 160px;
+  width: 100%;
+  margin: 10px auto 40px;
+  font-size: 20px;
+
+  &Buttons {
+    border: 2px solid #7bff00;
+    box-shadow: 0 0 8px #000;
+    background-color: #0F4644CC;
+    color: #fff;
+    padding: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .2s linear, color .2s linear;
+
+    &:hover {
+      border: 2px solid #7bff00;
+      box-shadow: 0 0 8px #1100ff;
+      background-color: #07854f;
+      color: #ffdd00;
+    }
+
+    &:disabled {
+      background-color: #fff;
+      color: #02026770;
+      cursor: initial;
+    }
+  }
+
+  &Page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70px;
+    width: 100%;
+    background-color: #0F4644CC;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 30px;
+    border: 2px solid #7bff00;
+    box-shadow: 0 0 8px #000;
+  }
+}

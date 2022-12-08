@@ -1,0 +1,20 @@
+.notPage {
+  max-width: 700px;
+  width: 100%;
+  min-height: 300px;
+  background-color: #FFFFFF5C;
+  border-radius: 15px;
+  border-color: #65c5dc;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.65);
+  margin: 50px auto 0;
+  font-size: 25px;
+  color: #000000;
+  text-shadow: 0 0 10px #ff0303;
+  line-height: 1.6;
+
+  &Img {
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+  }
+}

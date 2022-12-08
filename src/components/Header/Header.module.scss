@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background: #5595a4;
+  padding: 0 10px;
+  color: aliceblue;
+
+  &Container {
+    max-width: 1200px;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+  }
+
+  &Navigate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 12px;
+    height: 70px;
+  }
+
+  &PageLink {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    transition: color .2s linear, text-decoration .2s linear;
+
+    &:hover {
+      color: yellow;
+      transition: color .3s linear;
+    }
+
+    &:global.active {
+      color: #152149;
+      text-decoration: underline;
+    }
+  }
+}

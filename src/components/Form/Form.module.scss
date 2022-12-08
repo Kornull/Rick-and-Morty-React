@@ -1,0 +1,188 @@
+.formBlock {
+  text-align: start;
+  max-width: 400px;
+  width: 90%;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 60px auto 30px;
+  min-height: 500px;
+  background: #31758FFF;
+  border-radius: 25px;
+  border: 2px solid #ff0000;
+  padding: 15px;
+  box-shadow: 0 0 15px #FFD400E5;
+
+  &UseForm {
+    max-width: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin: 0 auto;
+  }
+
+  &Label {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 468px) {
+      width: 90%;
+    }
+  }
+
+  &Select {
+    overflow: hidden;
+    max-width: 300px;
+    width: 80%;
+
+    & option {
+      max-width: 50%;
+      color: #020267;
+      overflow: hidden;
+    }
+  }
+
+  &ErrorText {
+    color: #f7ff00;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  &Input {
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-size: 18px;
+  }
+
+  &File {
+    display: none;
+  }
+
+
+  &Select {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    &:focus {
+      border-color: #1aff03;
+    }
+  }
+
+  &ButtonSubmit {
+    max-width: 100px;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border-color: #1aff03;
+    background-color: #fff800;
+    color: blue;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 0 10px #ff9100;
+    }
+
+    &:disabled {
+      border-color: #9B26A28C;
+      box-shadow: 0 0 2px green;
+      color: #0000FF87;
+      background-color: #FFF80096;
+      cursor: default;
+    }
+  }
+
+  &Checkbox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    white-space: pre-line;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+    & input {
+      display: block;
+      margin-left: 5px;
+    }
+
+    & span {
+      position: absolute;
+      bottom: -15px;
+      left: 3px;
+    }
+  }
+
+  &Gender {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  &LabelFileButton {
+    display: block;
+    width: 40%;
+    max-width: 150px;
+    padding: 10px 0;
+    background: #4fe7c5;
+    color: #ff0000;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #FFFF00;
+    box-shadow: 0 0 10px #020267;
+
+    &:hover {
+      color: #020267;
+      box-shadow: 0 0 10px #ff0000;
+    }
+  }
+}
+
+.TextLoad {
+  max-width: 170px;
+  width: 100%;
+  max-height: 80px;
+  overflow: hidden;
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+}
+
+.blockImageCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  gap: 5px;
+}
+
+.imageBlock {
+  max-width: 100px;
+  max-height: 80px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.imagePrev {
+  width: 90%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+  height: 74px;
+
+  & input {
+    padding: 5px 8px;
+    margin: 4px 0;
+  }
+}
