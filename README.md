@@ -21,6 +21,7 @@ This project is an application of an online store. Completed as part of studies 
 - Create your own card
 - Api call.
 - View full character information.
+- Unit Testing
 
 ---
 ***To launch the application, follow this [link](https://kornull.netlify.app/). You don't have to install anything!***
