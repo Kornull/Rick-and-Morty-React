@@ -9,6 +9,8 @@ This project is an application of an online store. Completed as part of studies 
 - #### _Redux Toolkit_
 - #### _React Hook Form_
 - #### _React Router_
+- #### _React Testing Library_
+- #### _Jest_
 ---
 
 ### Details:
